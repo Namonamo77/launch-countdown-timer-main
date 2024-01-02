@@ -1,0 +1,110 @@
+:root {
+    --Grayishblue: hsl(237, 18%, 59%);
+    --Softred: hsl(345, 95%, 68%);
+
+    --White: hsl(0, 0%, 100%);
+    --DarkDesaturatedBlue: hsl(236, 21%, 26%);
+    --VeryDarkBlue: hsl(235, 16%, 14%);
+    --VeryDarkerBlue: hsl(234, 17%, 12%);
+}
+*, 
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+body {
+    position: relative;
+    font-family: 'Red Hat Text', sans-serif;
+    background: var(--VeryDarkBlue);
+    background-image: url('./images/bg-stars.svg');
+    background-position: center;
+    background-repeat: no-repeat;
+    padding: 1em 0;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    height: 100vh;
+    line-height: 1.2;
+}
+main{
+    width: 90%;
+    padding: 4em 0;
+    margin-bottom: 2em;
+}
+ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0;
+    
+}
+li {
+    text-align: center;
+}
+.title {
+    text-align: center;
+    font-size: 1.2rem;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    color: var(--White);
+    
+}
+.hills {
+    position: absolute;
+    right: -3em;
+    bottom: 0;
+    width: 280%;
+    z-index: -1;
+}
+.squares {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 4em;
+}
+.square{
+    max-height: 5em;
+    width: 5em;
+    background: var(--DarkDesaturatedBlue);
+    border-radius: 4px;
+}
+.square h2 {
+    text-align: center;
+    color: var(--Softred);
+    font-size: 2rem;
+    margin-top: .7em;
+}
+.countdown p {
+    text-transform: uppercase;
+    color: var(--Grayishblue);
+    font-size: .5rem;
+    letter-spacing: 2px;
+    text-align: center;
+}
+
+footer{
+    padding: 0 6em;
+}
+.socials {
+    margin-bottom: 3em;
+}
+.socials button {
+    background: transparent;
+    border: none;
+    cursor: pointer;
+}
+.socials button:hover svg path{
+    fill: var(--Softred);
+}
+
+.attribution {
+    font-size: 11px;
+    text-align: center;
+    color: var(--White);
+  }
+.attribution a {
+    color: var(--Grayishblue);
+    text-decoration: none;
+}
