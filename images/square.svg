@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 25.4.1, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Calque_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 50 50" style="enable-background:new 0 0 50 50;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:#191A24;}
+	.st1{fill:#34364F;}
+	.st2{fill:#343650;}
+	.st3{fill:#2C2C44;}
+	.st4{opacity:0.05;fill:none;stroke:#FFFFFF;stroke-width:0.25;stroke-miterlimit:10;}
+</style>
+<g>
+	<path class="st0" d="M47.5,50h-45C1.12,50,0,48.88,0,47.5v-45C0,1.12,1.12,0,2.5,0h45C48.88,0,50,1.12,50,2.5v45
+		C50,48.88,48.88,50,47.5,50z"/>
+</g>
+<path class="st1" d="M47.5,50h-45C1.12,50,0,48.88,0,47.5v-20c1.38,0,2.5-1.12,2.5-2.5h45c0,1.38,1.12,2.5,2.5,2.5v20
+	C50,48.88,48.88,50,47.5,50z"/>
+<g>
+	<path class="st2" d="M47.5,25h-45c0-1.38-1.12-2.5-2.5-2.5v-20C0,1.12,1.12,0,2.5,0h45C48.88,0,50,1.12,50,2.5v20
+		C48.62,22.5,47.5,23.62,47.5,25z"/>
+</g>
+<path class="st3" d="M47.5,25h-45c0-1.38-1.12-2.5-2.5-2.5v-20C0,1.12,1.12,0,2.5,0h45C48.88,0,50,1.12,50,2.5v20
+	C48.62,22.5,47.5,23.62,47.5,25z"/>
+<path class="st4" d="M47.5,25h-45"/>
+</svg>
